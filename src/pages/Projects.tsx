@@ -57,7 +57,7 @@ const Projects = () => {
       tags: ['Next.js', 'TypeScript', 'Tailwind CSS'],
       category: 'web',
       github: 'https://github.com/067871Jeremiasibiya/mendlovu-website',
-      live: 'https://mendlovu-website.vercel.app',
+      live: 'https://mendlovu.netlify.app',
       featured: true,
       status: 'completed',
     },
