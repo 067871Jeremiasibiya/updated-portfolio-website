@@ -84,8 +84,8 @@ const About = () => {
               <div className="relative z-10">
                 <img
                   src={profileImage}
-                  alt="Jeremia Sibiya"
-                  className="rounded-2xl shadow-2xl w-full max-w-md mx-auto"
+                  alt="Jeremia Ostin Sibiya - Junior Web and Software Developer"
+                  className="rounded-full shadow-2xl w-full max-w-sm mx-auto aspect-square object-cover"
                 />
               </div>
               <div className="absolute -bottom-6 -right-6 w-72 h-72 bg-primary-200 dark:bg-primary-900/30 rounded-2xl -z-10" />
