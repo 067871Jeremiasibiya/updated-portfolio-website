@@ -10,46 +10,46 @@ const Home = () => {
 
   const skills = [
     {
-      icon: FiCpu,
-      title: 'AI Engineering',
-      description: 'Building intelligent systems with machine learning, NLP, and deep learning frameworks.',
-      technologies: ['Python', 'TensorFlow', 'PyTorch', 'LangChain', 'OpenAI'],
-    },
-    {
       icon: FiCode,
-      title: 'React Development',
-      description: 'Creating modern, responsive web applications with React and its ecosystem.',
-      technologies: ['React', 'TypeScript', 'Next.js', 'Tailwind CSS', 'Redux'],
+      title: 'Frontend Development',
+      description: 'Building responsive, accessible web UIs with modern React tooling.',
+      technologies: ['React', 'TypeScript', 'Next.js', 'Tailwind CSS', 'Vite'],
     },
     {
       icon: FiLayers,
-      title: 'Full-Stack',
-      description: 'End-to-end development from database design to deployment and DevOps.',
-      technologies: ['Node.js', 'PostgreSQL', 'MongoDB', 'Docker', 'AWS'],
+      title: 'Full-Stack Apps',
+      description: 'Shipping end-to-end features — auth, data, APIs, and deployment.',
+      technologies: ['Node.js', 'Express', 'Firebase', 'Socket.io', 'Vercel'],
+    },
+    {
+      icon: FiCpu,
+      title: 'Practical Problem Solving',
+      description: 'Real projects for associations, client sites, and real-time tools.',
+      technologies: ['Git', 'REST APIs', 'Firestore', 'PDF/Excel reports', 'Maps'],
     },
   ];
 
   const featuredProjects = [
     {
-      title: 'Personal Portfolio Website',
-      description: 'A modern, responsive portfolio built with React, TypeScript, and Tailwind CSS.',
-      tags: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop',
+      title: 'BEST AMS',
+      description: 'Association management — members, payments, compliance, and reports.',
+      tags: ['React', 'TypeScript', 'Firebase', 'Tailwind'],
+      image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop',
       status: 'completed',
     },
     {
-      title: 'AI Chat Assistant',
-      description: 'Modern chat interface with GPT integration and markdown support.',
-      tags: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
-      image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop',
-      status: 'in-development',
+      title: 'SafeTrack',
+      description: 'Consent-based live location sharing with real-time maps.',
+      tags: ['React', 'Socket.io', 'Express', 'TypeScript'],
+      image: 'https://images.unsplash.com/photo-1524661135-423995f22d0b?w=600&h=400&fit=crop',
+      status: 'completed',
     },
     {
-      title: 'Task Manager - Kanban Board',
-      description: 'Interactive task management with drag-and-drop functionality.',
-      tags: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
-      image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop',
-      status: 'in-development',
+      title: 'Mendlovu Website',
+      description: 'Client marketing site built with Next.js and deployed on Vercel.',
+      tags: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop',
+      status: 'completed',
     },
   ];
 
@@ -88,7 +88,7 @@ const Home = () => {
           >
             <motion.div variants={itemVariants} className="mb-6">
               <span className="inline-block px-4 py-2 bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 rounded-full text-sm font-medium">
-                Available for freelance work
+                Open to junior developer roles
               </span>
             </motion.div>
 
@@ -106,8 +106,8 @@ const Home = () => {
               variants={itemVariants}
               className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto"
             >
-              AI Engineer & React Developer building intelligent, beautiful web experiences 
-              that push the boundaries of what's possible.
+              Junior Web & Software Developer building practical apps with React,
+              TypeScript, and modern tooling.
             </motion.p>
 
             <motion.div variants={itemVariants} className="flex flex-wrap justify-center gap-4 mb-12">
@@ -176,8 +176,7 @@ const Home = () => {
               What I Do
             </motion.h2>
             <motion.p variants={itemVariants} className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-              Combining AI expertise with modern web development to create intelligent, 
-              user-centric applications.
+              Combining frontend skills with full-stack tooling to ship useful web applications.
             </motion.p>
           </motion.div>
 
@@ -227,7 +226,7 @@ const Home = () => {
               Featured Projects
             </motion.h2>
             <motion.p variants={itemVariants} className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-              A selection of my recent work combining AI and modern web technologies.
+              Selected projects that show how I build and ship real software.
             </motion.p>
           </motion.div>
 

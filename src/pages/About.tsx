@@ -11,32 +11,32 @@ const About = () => {
 
   const journey = [
     {
-      title: 'Discovered Programming',
+      title: 'Started Web Development',
       period: '2023',
-      description: 'Started my self-taught journey into web development, learning HTML, CSS, and JavaScript through online resources and hands-on practice.',
+      description: 'Began learning HTML, CSS, and JavaScript through practice projects and online resources.',
       icon: FiZap,
     },
     {
-      title: 'Mastered React & TypeScript',
+      title: 'React & TypeScript',
       period: '2024',
-      description: 'Dove deep into React ecosystem, TypeScript, and modern frontend development. Built multiple projects to solidify my skills.',
+      description: 'Built multiple React apps with TypeScript, Tailwind, and modern frontend tooling.',
       icon: FiCode,
     },
     {
-      title: 'Explored AI & Machine Learning',
-      period: '2024 - Present',
-      description: 'Expanded into AI engineering, learning Python, TensorFlow, and working with LLMs and AI-powered applications.',
+      title: 'Full-Stack Projects',
+      period: '2025 - Present',
+      description: 'Shipped association management, real-time location sharing, and client websites with Firebase and Node.',
       icon: FiTarget,
     },
   ];
 
   const technicalSkills = [
-    { name: 'React/Next.js', level: 95 },
-    { name: 'TypeScript', level: 90 },
-    { name: 'Python', level: 92 },
-    { name: 'Machine Learning', level: 88 },
-    { name: 'Node.js', level: 85 },
-    { name: 'PostgreSQL/MongoDB', level: 82 },
+    { name: 'React / Next.js', level: 85 },
+    { name: 'TypeScript / JavaScript', level: 82 },
+    { name: 'HTML / CSS / Tailwind', level: 88 },
+    { name: 'Firebase', level: 75 },
+    { name: 'Node.js / Express', level: 70 },
+    { name: 'Git / GitHub', level: 80 },
   ];
 
   const containerVariants = {
@@ -65,7 +65,7 @@ const About = () => {
           >
             <h1 className="text-5xl font-bold mb-6 text-gray-900 dark:text-white">About Me</h1>
             <p className="text-xl text-gray-600 dark:text-gray-300">
-              Passionate about building intelligent solutions that make a difference.
+              Junior web & software developer focused on shipping useful products.
             </p>
           </motion.div>
         </div>
@@ -97,23 +97,22 @@ const About = () => {
                 Hello! I'm Jeremia Sibiya
               </h2>
               <div className="inline-block px-4 py-2 bg-gradient-to-r from-primary-100 to-blue-100 dark:from-primary-900/30 dark:to-blue-900/30 rounded-full mb-6">
-                <span className="text-primary-700 dark:text-primary-300 font-medium">100% Self-Taught Developer</span>
+                <span className="text-primary-700 dark:text-primary-300 font-medium">Junior Web & Software Developer</span>
               </div>
               <div className="space-y-4 text-gray-600 dark:text-gray-400">
                 <p>
-                  I'm a self-taught AI Engineer and React Developer with an unwavering passion for 
-                  technology and problem-solving. Without formal IT education, I've built my skills 
-                  from the ground up through dedication, curiosity, and countless hours of practice.
+                  I'm a self-taught junior developer from Johannesburg with a passion for
+                  building practical web applications. I learn by shipping — from association
+                  management systems to real-time tools and client marketing sites.
                 </p>
                 <p>
-                  My journey proves that with determination and the right mindset, anyone can break 
-                  into tech. I've learned everything from online courses, documentation, YouTube tutorials, 
-                  and most importantly—by building real projects and learning from my mistakes.
+                  My stack centres on React, TypeScript, Tailwind, and Firebase/Node. I'm looking
+                  for a junior web or software developer role where I can contribute, learn from
+                  a team, and keep improving.
                 </p>
                 <p>
-                  Today, I combine my expertise in React, TypeScript, and AI technologies to create 
-                  modern web applications. I'm constantly learning and pushing myself to master new 
-                  technologies and build innovative solutions.
+                  Outside of work I keep building: portfolio projects, hackathon entries, and
+                  freelance-style client sites that go live on Vercel and similar hosts.
                 </p>
               </div>
               <div className="mt-8">

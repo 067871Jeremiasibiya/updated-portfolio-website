@@ -21,56 +21,69 @@ const Projects = () => {
   const [filter, setFilter] = useState('all');
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
 
-  const categories = ['all', 'ai', 'web', 'fullstack'];
+  const categories = ['all', 'web', 'fullstack'];
 
   const projects: Project[] = [
     {
       id: 1,
-      title: 'Personal Portfolio Website',
-      description: 'Modern, responsive portfolio showcasing my work and skills.',
-      longDescription: 'A beautifully designed personal portfolio website built from scratch with React, TypeScript, and Tailwind CSS. Features smooth animations with Framer Motion, dark mode support, responsive design, and a contact form.',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop',
-      tags: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'Vite'],
-      category: 'web',
-      github: 'https://github.com/067871Jeremiasibiya/personal-website',
+      title: 'BEST AMS',
+      description: 'Association management for scholar transport operations.',
+      longDescription: 'Commercial association management software with role-based auth, members, payments, compliance tracking, reports (PDF/CSV/Excel), and Firebase production setup.',
+      image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=500&fit=crop',
+      tags: ['React', 'TypeScript', 'Firebase', 'Tailwind CSS'],
+      category: 'fullstack',
+      github: 'https://github.com/067871Jeremiasibiya/best-ams',
       featured: true,
       status: 'completed',
     },
     {
       id: 2,
-      title: 'QR Code Component',
-      description: 'Frontend Mentor challenge - Responsive QR code card.',
-      longDescription: 'A clean and responsive QR code component built as part of the Frontend Mentor challenges. This project helped me practice HTML, CSS fundamentals, and responsive design principles.',
-      image: 'https://images.unsplash.com/photo-1595079676339-1534801ad6cf?w=800&h=500&fit=crop',
-      tags: ['HTML', 'CSS', 'Responsive Design'],
-      category: 'web',
-      github: 'https://github.com/067871Jeremiasibiya/qr-code-component',
+      title: 'SafeTrack',
+      description: 'Consent-based live location sharing for family safety.',
+      longDescription: 'Real-time GPS sharing with session codes, live map trails, and Socket.io updates. Built with React, Express, and Leaflet.',
+      image: 'https://images.unsplash.com/photo-1524661135-423995f22d0b?w=800&h=500&fit=crop',
+      tags: ['React', 'TypeScript', 'Socket.io', 'Express'],
+      category: 'fullstack',
+      github: 'https://github.com/067871Jeremiasibiya/safe-track',
       featured: true,
       status: 'completed',
     },
     {
       id: 3,
-      title: 'AI Chat Assistant',
-      description: 'Conversational AI interface with GPT integration.',
-      longDescription: 'A modern chat interface built with React and TypeScript. Features real-time messaging, markdown support, typing indicators, and smooth animations. Ready for OpenAI API integration.',
-      image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=500&fit=crop',
-      tags: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
-      category: 'ai',
-      github: 'https://github.com/067871Jeremiasibiya/ai-chat-assistant',
+      title: 'Mendlovu Website',
+      description: 'Client marketing website deployed on Vercel.',
+      longDescription: 'Next.js marketing site with Tailwind CSS, Lucide icons, and EmailJS contact form.',
+      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop',
+      tags: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+      category: 'web',
+      github: 'https://github.com/067871Jeremiasibiya/mendlovu-website',
+      live: 'https://mendlovu-website.vercel.app',
       featured: true,
-      status: 'in-development',
+      status: 'completed',
     },
     {
       id: 4,
       title: 'Task Manager - Kanban Board',
       description: 'Interactive task management with drag-and-drop.',
-      longDescription: 'A Kanban-style task management app with three columns (To Do, In Progress, Done), priority levels, task statistics, and smooth animations. Built with React and TypeScript.',
+      longDescription: 'Kanban board with To Do / In Progress / Done columns, priorities, and Framer Motion animations.',
       image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=500&fit=crop',
-      tags: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
+      tags: ['React', 'TypeScript', 'Tailwind CSS', 'dnd-kit'],
       category: 'web',
       github: 'https://github.com/067871Jeremiasibiya/task-manager',
       featured: true,
-      status: 'in-development',
+      status: 'completed',
+    },
+    {
+      id: 5,
+      title: 'AI Chat Assistant',
+      description: 'Modern chat UI with markdown and animations.',
+      longDescription: 'Chat interface with typing indicators, markdown responses, and a clean responsive layout ready for API integration.',
+      image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=500&fit=crop',
+      tags: ['React', 'TypeScript', 'Tailwind CSS'],
+      category: 'web',
+      github: 'https://github.com/067871Jeremiasibiya/ai-chat-assistant',
+      featured: false,
+      status: 'completed',
     },
   ];
 
@@ -104,7 +117,7 @@ const Projects = () => {
           >
             <h1 className="text-5xl font-bold mb-6 text-gray-900 dark:text-white">My Projects</h1>
             <p className="text-xl text-gray-600 dark:text-gray-300">
-              A collection of projects showcasing my expertise in AI and web development.
+              Projects that show how I build web and software applications.
             </p>
           </motion.div>
         </div>

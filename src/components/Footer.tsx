@@ -22,8 +22,8 @@ const Footer = () => {
               </span>
             </Link>
             <p className="text-gray-400 max-w-md">
-              AI Engineer & React Developer crafting intelligent, beautiful web experiences. 
-              Passionate about building the future with code and machine learning.
+              Junior Web & Software Developer building practical apps with React and TypeScript.
+              Open to junior roles in Johannesburg and remote.
             </p>
           </div>
 
