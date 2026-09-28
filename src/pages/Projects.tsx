@@ -32,7 +32,6 @@ const Projects = () => {
       image: '/projects/project-best-ams.jpg',
       tags: ['React', 'TypeScript', 'Firebase', 'Tailwind CSS'],
       category: 'fullstack',
-      github: 'https://github.com/067871Jeremiasibiya/best-ams',
       featured: true,
       status: 'completed',
     },
