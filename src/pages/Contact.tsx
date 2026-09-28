@@ -35,8 +35,8 @@ const Contact = () => {
     {
       icon: FiMail,
       title: 'Email',
-      value: 'sibiyajeremia6@gmail.com',
-      href: 'mailto:sibiyajeremia6@gmail.com',
+      value: '8jeremiasibiya@gmail.com',
+      href: 'mailto:8jeremiasibiya@gmail.com',
     },
     {
       icon: FiMapPin,

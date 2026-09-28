@@ -7,7 +7,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: FiGithub, href: 'https://github.com/067871Jeremiasibiya', label: 'GitHub' },
     { icon: FiLinkedin, href: 'https://www.linkedin.com/in/jeremia-ostin-sibiya-278ba6359/', label: 'LinkedIn' },
-    { icon: FiMail, href: 'mailto:sibiyajeremia6@gmail.com', label: 'Email' },
+    { icon: FiMail, href: 'mailto:8jeremiasibiya@gmail.com', label: 'Email' },
   ];
 
   return (
